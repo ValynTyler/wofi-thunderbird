@@ -1,24 +1,15 @@
-# Rofirefox
+# Wofi-firefox
 
-Rofirefox is a simple script for displaying and launching your Firefox profiles using rofi
+A [wofi](https://hg.sr.ht/~scoopta/wofi) based firefox profile picker.
 
 # Installation
 
-```bash
-git clone https://github.com/ethmtrgt/rofirefox
-cd rofirefox
-sudo make install
-```
-
-<br>
-
-Simply uninstall rofirefox by running `sudo make uninstall`.
+TODO
 
 # Usage
 
-Launch the menu by running `rofirefox` command.
+TODO
 
 # Preview
 
 ![preview](preview.png)
-
