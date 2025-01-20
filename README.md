@@ -1,6 +1,6 @@
 # Wofi-firefox
 
-A [wofi](https://hg.sr.ht/~scoopta/wofi) based firefox profile picker.
+A [wofi](https://hg.sr.ht/~scoopta/wofi) based thunderbird profile picker.
 
 # Installation
 
@@ -12,4 +12,4 @@ TODO
 
 # Preview
 
-![preview](preview.png)
+TODO
