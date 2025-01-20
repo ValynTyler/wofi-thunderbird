@@ -10,15 +10,15 @@
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in
   {
-    packages.x86_64-linux.default = self.packages.x86_64-linux.wofirefox;
-    packages.x86_64-linux.wofirefox =
+    packages.x86_64-linux.default = self.packages.x86_64-linux.wofiemail;
+    packages.x86_64-linux.wofiemail =
       pkgs.stdenv.mkDerivation {
-        name = "wofirefox";
+        name = "wofiemail";
         src = self;
         installPhase = ''
           mkdir -p $out/bin
-          cp ./wofirefox.sh $out/bin/wofirefox
-          chmod +x $out/bin/wofirefox
+          cp ./wofiemail.sh $out/bin/wofiemail
+          chmod +x $out/bin/wofiemail
         '';
       };
   };
